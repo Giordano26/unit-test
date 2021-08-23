@@ -88,7 +88,7 @@ app.use((req, res, next) => {
 //500
 app.use((err, req, res) => {
     res.status = err.status || 500;
-    return res.send(res.status + '. An unknown error has occured.');
+    return res.send(res.status + '. An unknown error has occurred.');
 });
 
 
