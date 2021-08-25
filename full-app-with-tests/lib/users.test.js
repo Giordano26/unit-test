@@ -19,7 +19,6 @@ var sandbox = sinon.createSandbox();
 describe('users', ()=>{
   let findStub;
   let deleteStub;
-  let sampleArgs;
   let sampleUser;
 
 
